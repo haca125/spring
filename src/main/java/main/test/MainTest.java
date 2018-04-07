@@ -11,6 +11,6 @@ public class MainTest {
 		System.out.println(buildURL);
 
 		User user = new User(1235, "haca125", "hahien");
-		System.out.println(Util.toString(user));
+		System.out.println(user.toString());
 	}
 }
